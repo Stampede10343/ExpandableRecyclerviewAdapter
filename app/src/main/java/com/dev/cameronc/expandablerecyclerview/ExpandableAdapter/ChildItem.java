@@ -1,9 +1,5 @@
 package com.dev.cameronc.expandablerecyclerview.ExpandableAdapter;
 
-/**
- * Created by ccord on 4/11/2017.
- */
-
 public class ChildItem
 {
     private String data;

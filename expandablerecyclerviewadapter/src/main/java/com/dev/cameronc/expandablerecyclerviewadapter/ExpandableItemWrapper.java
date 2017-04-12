@@ -2,10 +2,6 @@ package com.dev.cameronc.expandablerecyclerviewadapter;
 
 import android.support.annotation.Nullable;
 
-/**
- * Created by ccord on 4/10/2017.
- */
-
 public class ExpandableItemWrapper<P extends Parent<Child>, Child>
 {
     private final boolean isParent;

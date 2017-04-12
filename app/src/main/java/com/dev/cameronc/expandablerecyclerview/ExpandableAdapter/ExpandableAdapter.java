@@ -10,10 +10,6 @@ import com.dev.cameronc.expandablerecyclerviewadapter.ExpandableRecyclerviewAdap
 
 import java.util.List;
 
-/**
- * Created by ccord on 4/11/2017.
- */
-
 public class ExpandableAdapter extends ExpandableRecyclerviewAdapter<ParentVH, ChildVH, ParentItem, ChildItem>
 {
     public ExpandableAdapter(List<ParentItem> parentItems)

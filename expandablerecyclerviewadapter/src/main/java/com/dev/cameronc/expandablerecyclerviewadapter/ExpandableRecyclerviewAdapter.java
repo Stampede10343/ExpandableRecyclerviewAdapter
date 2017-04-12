@@ -9,10 +9,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-/**
- * Created by ccord on 4/10/2017.
- */
-
 public abstract class ExpandableRecyclerviewAdapter<ParentVH extends RecyclerView.ViewHolder, ChildVH extends RecyclerView.ViewHolder, ParentItem extends Parent<ChildItem>, ChildItem> extends RecyclerView.Adapter<RecyclerView.ViewHolder>
 {
     private static final int PARENT_ITEM = 1;

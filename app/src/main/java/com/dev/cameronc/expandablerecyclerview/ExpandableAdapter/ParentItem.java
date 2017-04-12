@@ -5,10 +5,6 @@ import com.dev.cameronc.expandablerecyclerviewadapter.Parent;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by ccord on 4/11/2017.
- */
-
 public class ParentItem implements Parent<ChildItem>
 {
     private String data = "PARENT!";
