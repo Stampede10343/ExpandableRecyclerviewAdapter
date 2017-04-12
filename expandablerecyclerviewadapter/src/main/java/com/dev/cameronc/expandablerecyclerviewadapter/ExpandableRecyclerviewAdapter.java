@@ -187,7 +187,7 @@ public abstract class ExpandableRecyclerviewAdapter<ParentVH extends RecyclerVie
         }
     }
 
-    private static class ExpandableItemDiffCallback<P extends Parent<C>, C> extends com.dev.cameronc.expandablerecyclerviewadapter.ExpandableItemDiffCallback
+    private static class ExpandableItemDiffCallback<P extends Parent<C>, C> extends DiffUtil.Callback
     {
         private final List<ExpandableItemWrapper<P, C>> newItemList;
         private final List<ExpandableItemWrapper<P, C>> oldItemList;
